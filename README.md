@@ -1,7 +1,7 @@
 ## Static webpages
 
 #### Facebook Log-in Clone
-![Screenshot 2025-01-13 014758](https://github.com/user-attachments/assets/b51d4f93-17c2-4e5e-bf04-1685f9692e58)
+![fb](https://github.com/user-attachments/assets/344a0f2d-1102-4ba3-a0fc-a301b2724e46)
 
 #### Youtube Log-in Clone
 
