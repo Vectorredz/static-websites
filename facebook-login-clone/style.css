@@ -1,0 +1,220 @@
+:root {
+    --primary-color: #0866ff;
+    --secondary-color: #42b72A;
+    --font-color: rgba(0, 0, 0, 0.55);
+}
+
+.input-container .login {
+    background-color: var(--primary-color);
+}
+
+.input-container .createBtn {
+    background-color: var(--secondary-color);
+}
+
+
+body{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f2f4f7;
+}
+
+.caption {
+    font-size: 1.25rem; 
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+
+.login-container{
+    width: 90%;
+    max-width: 375px;
+
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2.5px 5px 3px rgba(0,0,0,0.1);
+    
+    background-color: white;
+}
+
+.input-container input{
+    display: block;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0,0,0.25);
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.input-container input:focus{
+    display: block;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(8,102,255, 0.90);
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.input-container .login{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border: 0;
+    background-color: #0866ff;
+
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.input-container .login:hover{
+    background-color: rgba(8,102,255, 0.90);
+}
+
+.input-container .forgot{
+    display: block;
+
+    margin: 15px 0;
+
+    font-family: Arial;
+    text-decoration: none;
+
+    font-size: 12px;
+    color: #0866ff;
+
+}
+
+.input-container .forgot:hover{
+    text-decoration: underline;
+}
+
+.input-container .line{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    opacity: 0.3;
+}
+
+.input-container .createBtn{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border: 0;
+    background-color:#42b72A;
+
+    padding: 12px;
+    box-sizing: border-box;
+
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.input-container .createBtn:hover{
+    opacity: 90%;
+}
+
+.pre-page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.page:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: underline;
+}
+
+.footer{
+    display: block;
+    margin-top: 100px;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.footer .lang{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.55);
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+.footer .languages{
+    display: block;
+    margin: 10px 10px;
+    word-spacing: 10px;
+}
+
+.footer .foot-features{
+    max-width: fit-content;
+    margin-inline: auto;
+    width: 770px;
+    height: 250px;
+    background-color: white;
+}
+
+.footer .features1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 10px; 
+}
+
+.footer .lang:hover{
+    text-decoration: underline;
+}
+
+.footer .feat {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.55);
+    text-decoration: none;
+}
+
+.footer .feat:hover{
+    text-decoration: underline;
+}
+
+
+
+
